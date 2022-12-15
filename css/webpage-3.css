@@ -10,7 +10,7 @@ h1 {
 	font-size: 70px;
 	text-shadow: 5px 6px 4px black;
 	color: dodgerblue;
-	letter-spacing: 35px;
+	letter-spacing: 35px;/*<--增加或减少字符间的空白（字符间距）-->*/
 }
 td {
 	background: mistyrose;
@@ -39,6 +39,9 @@ td:hover {
 	background: navy;
 	border: 2px solid lightseagreen;
 }
+/*website-3页面导航栏鼠标悬停效果
+hover 选择器鼠标指针在其上浮动的链接设置样式。
+*/
 #main {
 	text-indent: 2em;
 	font-family: "宋体";
