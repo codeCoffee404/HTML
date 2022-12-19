@@ -1,55 +1,39 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 body {
-	margin: 0 150px;
-	padding: 0 20px auto 20px;
 	background:url(../images/heawen.jpg)no-repeat fixed ;
 	background-size:cover;
 }
 h1 {
 	text-align: center;
 	font-size: 70px;
-	text-shadow: 5px 6px 4px black;
-	color: dodgerblue;
-	letter-spacing: 35px;/*<--增加或减少字符间的空白（字符间距）-->*/
+	color: blue;
+	letter-spacing: 35px;
 }
 td {
 	background: mistyrose;
 	border: 2px;
-	border-radius: 20px;
+	border-radius: 15px;
 	opacity: 0.6;
-	column-span: 10px;
 }
-#nav {
-	margin: 40px;
+.nav {
+	margin: 10px 120px;
 	font-size: 30px;
 	text-align: center;
 	text-decoration: none;
 }
-/*nav {
-	border: dotted wheat 3px;
-	border-radius: 35px;
-}*/
 span {
 	padding: 45px;
 	font-size: 35px;
 }
 td:hover {
-	text-align: center;
-	font-size: 50px;
 	background: navy;
-	border: 2px solid lightseagreen;
 }
-/*website-3页面导航栏鼠标悬停效果
-hover 选择器鼠标指针在其上浮动的链接设置样式。
-*/
-#main {
-	text-indent: 2em;
+.main {
 	font-family: "宋体";
-	padding: 20px;
+	padding: 70px;
 	text-align:left;
 	font-size: 17px;
-	border: outset 2px wheat;
-	border-radius:60px 20px;
+	border-radius: 20px;
 	height: 1050px;
 	width: 1150px;
 	margin: 20px;
@@ -89,19 +73,8 @@ img:hover {
 	border-radius: 10px;
 }
 a {
-	color: darkviolet;
 	text-decoration: none;
-}
-a:link {
-	color:dodgerblue;
 }
 a:hover {
 	color: orangered;
-}
-#footer {
-	background: gray;
-	opacity: 0.8;
-	border-radius: 10px;
-	text-align: center;
-	color:lightgrey;
 }

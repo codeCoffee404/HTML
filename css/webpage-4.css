@@ -1,57 +1,61 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 body {
-	margin: 0 100px 0 auto;
-	padding: auto;
-	background:url(../images/snow.jpg)no-repeat fixed ;
-	background-size:cover;
+        margin: 0 100px 0 auto;
+        padding: auto;
+	    background:url(../images/snow.jpg)no-repeat fixed ;
+	    background-size:cover;
 }
 h1 {
 	text-align: center;
 	font-size: 70px;
-	text-shadow: 5px 6px 4px black;
-	color: dodgerblue;
+	color: blue;
 	letter-spacing: 35px;
+     
 }
-#nav {
-	width: 300px;
-	height: 450px;
-	/*border: 2px dotted royalblue;*/
-	padding: 40px 20px;
-	margin: 20px 5px 20px 80px;
-	color:blue;
+/* .nav {
+	padding: 10px 20px;
 	text-decoration: none;
 	float: left;
-	position: fixed;/*absolute属性是跟随鼠标动，即会混动
-	position加上fixed属性后，不论我们如何拉动浏览器的滚动条，层2在浏览器中的位置都是不会变化的*/
-	
-}
+} */
 span {
 	text-align: center;
 	padding: 0 20px;
 	margin-bottom: 30px;
 	font-size: 35px;
-	background: linear-gradient(pink,indigo);
+	background: purple;
 	border: solid wheat 2px;
-	border-radius: 20px;
-	opacity: 0.6;
+	border-radius: 10px;
+    opacity: 0.5;
 	display: block;
 }
-#main {
+.main {
 	color: black;
-	text-indent: 2em;
 	font-family: "宋体";
 	padding: 20px;
 	text-align:left;
 	font-size: 17px;
 	border: solid 2px wheat;
-	border-radius:20px 60px;
+	border-radius:20px ;
 	height: 1250px;
 	width: 900px;
-	margin: 20px 20px 10px;
+	margin: 20px ;
 	line-height: 30px;
-	opacity: 0.8;
+	opacity: 0.8; /*后面的背景的被覆盖程度*/
 	float: right;
 	background: white;
+}
+.nav {
+	width: 300px;
+	height: 450px;
+	/*border: 2px dotted royalblue;*/
+	padding: 40px 20px;
+	margin: 20px 5px 10px 30px;
+	color:blue;
+	text-decoration: none;/*文本的修饰*/
+	float: left;
+	position: fixed;
+	/*absolute属性是跟随鼠标动，即会混动
+	position加上fixed属性后，不论我们如何拉动浏览器的滚动条，层2在浏览器中的位置都是不会变化的*/
 }
 img {
 	float: right;
@@ -66,27 +70,18 @@ a {
 	color:white;
 	text-decoration: none;
 }
+span:hover {
+	background: navy;
+}
 a:hover {
 	color:red;
 }
 a:visted {
 	color:purple;
 }
-span:hover {
-	font-size: 40px;
-	background: linear-gradient(mediumvioletred,lavenderblush);
-}
 .cite {
 	font-size: 25px;
 	color: indigo;
 	background: linear-gradient(plum,darkorchid);
-	border-radius: 10px;
-}
-#footer {
-	margin: 0 -40px 0 20px;
-	clear: both;
-	text-align: center;
-	background: grey;
-	opacity: 0.8;
 	border-radius: 10px;
 }

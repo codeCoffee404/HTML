@@ -1,8 +1,5 @@
-@charset "utf-8";
-
-
+﻿@charset "utf-8";
 body {
-	margin: 0 150px;
 	background:url(../images/city.jpg) no-repeat fixed;
 	background-size:cover;
 	
@@ -10,74 +7,48 @@ body {
 h1 {
 	text-align: center;
 	font-size: 70px;
-	text-shadow: 5px 6px 4px black;
 	color: dodgerblue;
-	letter-spacing: 35px;
+	letter-spacing: 40px;
 }
-#nav {
-	font-size: 30px;
+.nav {
 	text-align: center;
-	text-decoration: none;
-	/*background: url(../images/longway.jpg) no-repeat fixed;*/
-	
-	
 }
-span {
-	border: dotted wheat 3px;
-	border-radius: 10px;
+.nav span {
+	border-radius: 15px;
 	background: mistyrose;
-	opacity: 0.9;
 	padding:0 45px;
 	font-size: 35px;
+        opacity: 0.7;
 }
-#p1,#p2 {
+.p1,.p2,.p3 {
 	font-family: "宋体";
 	border: solid 2px beige;
-	border-radius: 35px;
-	float: center;
-	color:aliceblue;
+	border-radius: 25px;
 	padding: 20px;
 	margin: 10px auto;
 	width: 1150px;
 	height: 620px;
 	font-size: 17px;
-	font: "宋体";
 }
 img {
 	margin: 35px;
 	float: right;
-	opacity: 0.8;
-	border-radius: 35px;
+	border-radius: 15px;
+        opacity: 0.7;
 }
 img:hover {
 	opacity: 1;
 }
 P::first-letter{
 	font-size: 50px;
-	color: lightyellow;
+	color: grey;
 }
-a {
-	color:steelblue;
+a{
 	text-decoration: none;
-}
-
-a:visited {
-	/*color:darkviolet;*/
 }
 a:hover {
 	color: red;
 }
-span:hover {
+.nav span:hover {
 	background:turquoise;
-}
-#main div{
-	padding: 20px;
-}
-
-#footer {
-	text-align: center;
-	color:lightgrey;
-	background: grey;
-	opacity: 0.8;
-	border-radius: 10px;
 }
